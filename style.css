@@ -1,0 +1,106 @@
+/* Style global de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Boîte principale du formulaire */
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* En-tête */
+.login-header h2 {
+    margin: 0 0 8px 0;
+    color: #161823; /* Style inspiré des tons sombres modernes */
+    font-size: 24px;
+}
+
+.login-header p {
+    color: #8A8B91;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+/* Groupes de champs (input) */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #161823;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e1e1e6;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Effet quand on clique dans un champ */
+.input-group input:focus {
+    outline: none;
+    border-color: #fe2c55; /* Touche de couleur rappelant l'univers de TikTok */
+}
+
+/* Actions secondaires */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+}
+
+.forgot-password, .login-footer a {
+    color: #fe2c55;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.forgot-password:hover, .login-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Bouton de validation */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #fe2c55;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #e91e45;
+}
+
+/* Pied de page du formulaire */
+.login-footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #8A8B91;
+}
